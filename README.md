@@ -15,17 +15,18 @@ By using CNN model this project evaluates visual data, identifying siginificant 
 # Prequisties - 
 To run this project, you'll need the following software and libraries:
 
-Python 3.8+
-Jupyter Notebook
-Pandas
-NumPy
-Scikit-learn
-Statsmodels
-TensorFlow
-Matplotlib
-Seaborn
+* Python 3.8+
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Scikit-learn
+* Statsmodels
+* TensorFlow
+* Matplotlib
+* Seaborn
 
-#Usage 
+# Usage 
+
 Data Preprocessing: Run the preprocessing scripts to clean the data and combine date and time columns.
 
 python scripts/preprocess_data.py
