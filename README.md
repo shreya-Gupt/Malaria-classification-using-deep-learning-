@@ -12,18 +12,27 @@ By using CNN model this project evaluates visual data, identifying siginificant 
 4. Performance Montioring
 5. Model Training
 
-# Working
-1. Load Dataset:
-Blood smear images are loaded from organized folders using TensorFlow’s directory-based dataset loader.
+# Prequisties - 
+To run this project, you'll need the following software and libraries:
 
-2. Preprocess Images:
-Images are standardized and augmented to enhance training robustness.
+Python 3.8+
+Jupyter Notebook
+Pandas
+NumPy
+Scikit-learn
+Statsmodels
+TensorFlow
+Matplotlib
+Seaborn
 
-3. Train the CNN:
-The model learns to differentiate parasitized and uninfected cells through multiple training epochs.
+#Usage 
+Data Preprocessing: Run the preprocessing scripts to clean the data and combine date and time columns.
 
-4. Evaluate Performance:
-Metrics such as precision, recall, and F1-score provide a detailed performance breakdown.
+python scripts/preprocess_data.py
+Exploratory Data Analysis (EDA): Use the notebooks in the notebooks/ directory to conduct EDA and visualize feature relationships.
 
-5. Predict New Images:
-The trained model can classify new, unseen blood smear images.
+Model Implementation and Evaluation: Implement and evaluate models using the provided notebooks and scripts.
+
+Feature Engineering: Investigate the impact of various features and create new ones using the feature engineering scripts.
+
+Model Tuning and Validation: Tune hyperparameters and validate models to ensure optimal performance.
