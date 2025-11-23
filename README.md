@@ -30,6 +30,7 @@ To run this project, you'll need the following software and libraries:
 Data Preprocessing: Run the preprocessing scripts to clean the data and combine date and time columns.
 
 python scripts/preprocess_data.py
+
 Exploratory Data Analysis (EDA): Use the notebooks in the notebooks/ directory to conduct EDA and visualize feature relationships.
 
 Model Implementation and Evaluation: Implement and evaluate models using the provided notebooks and scripts.
