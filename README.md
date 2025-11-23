@@ -27,9 +27,7 @@ To run this project, you'll need the following software and libraries:
 
 # Usage 
 
-Data Preprocessing: Run the preprocessing scripts to clean the data and combine date and time columns.
-
-python scripts/preprocess_data.py
+Data Preprocessing: Run the preprocessing to clean the data.
 
 Exploratory Data Analysis (EDA): Use the notebooks in the notebooks/ directory to conduct EDA and visualize feature relationships.
 
